@@ -71,4 +71,11 @@
  git remote add origin https://github.com/JamtsJargal-maker/jamtsagency.github.io.git
 git branch -M main
 git push -u origin git add .                  # Бүх файлыг нэмнэ
-git commit -m "Анхны commit"  # Commit хийх
+git commit -m "Анхны commit"  # Commit # Фолдерт орох
+cd /path/to/your/project
+
+# Зургыг Git-д нэмэх
+git add image.png
+
+# Commit хийх
+git commit -m "Нэмсэн зураг файл"
